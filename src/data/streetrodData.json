@@ -1,0 +1,309 @@
+{
+  "siteConfig": {
+    "title": "Streetrod",
+    "description": "Official Street Rod Hero Site",
+    "url": "http://www.drivestreetrod.com/",
+    "faviconUrl": "/assets/streetrod/favicon.ico",
+    "ogImage": "https://drivestreetrod.com/og-image.jpg",
+    "logoUrl": "/assets/streetrod/streetrodLogo.png",
+    "brandName": "Streetrod",
+    "link": "",
+    "brandColor": "#eabf3c"
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "capabilities": true,
+    "charging": true,
+    "technologies": false,
+    "design": false,
+    "business": true,
+    "gallery": true,
+    "specs": false,
+    "build": false
+  },
+  "hero": [
+    {
+      "backgroundImageUrl": "/assets/streetrod/golfCourse.jpg",
+      "imageUrl": "/assets/streetrod/shaedCar.png",
+      "title": "Streetrod Golf Cars",
+      "description": "Unforgettable Custom Golf Cars"
+    }
+  ],
+  "overview": {
+    "title": "Overview",
+    "navLinkText": "Overview",
+    "specs": [
+      {
+        "imageUrl": "/assets/streetrod/charging.png",
+        "description": "Power to Choose"
+      },
+      {
+        "description": "28 years of Craftsmanship"
+      },
+      {
+        "description": "Under the Hood",
+        "imageUrl": "/assets/streetrod/underTheHood.png"
+      },
+      {
+        "description": "Completely Personalized",
+        "imageUrl": "/assets/streetrod/dashboard.png"
+      },
+      {
+        "imageUrl": "/assets/streetrod/frontLeftTruck.png",
+        "description": "Advanced Technology"
+      },
+      {
+        "title": "48V",
+        "description": "3.3 HP electric motor"
+      },
+      {
+        "title": "14 HP",
+        "description": "OHV Engine"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "From Fairway to Roadway",
+    "navLinkText": "Fairway",
+    "specs": [
+      {
+        "label": "",
+        "imageUrl": "/assets/streetrod/fairwayToRoadway.png"
+      },
+      {
+        "label": "Wherever your Streetrod takes you,",
+        "value": "you’ll get there in comfort, style and safely."
+      },
+      {
+        "label": "Whether cruising through the neighborhood,",
+        "value": "or playing a round of golf, SRC gets you there"
+      },
+      {
+        "label": "",
+        "imageUrl": "/assets/streetrod/blueWhiteTruck.png"
+      },
+      {
+        "label": "",
+        "imageUrl": "/assets/streetrod/luxuryGolfCar.png"
+      },
+      {
+        "label": "SRC sets the new standard ",
+        "value": "for street legal golf cars.",
+        "otherValue": ""
+      }
+    ]
+  },
+  "technologies": {
+    "title": "",
+    "navLinkText": "Technology",
+    "technology": [
+      {
+        "imageUrl": "/assets/streetrod/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/streetrod/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/streetrod/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/streetrod/",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "charging": {
+    "title": "American Craftsmanship ",
+    "navLinkText": "Craftsmanship",
+    "chargingOptions": [
+      {
+        "imageUrl": "/assets/streetrod/science.png",
+        "title": "The Beginning",
+        "description": "As is the case with many great American businesses, Streetrod's beginnings trace to a humble garage in a small town. Craig Schmidt first began fabricating custom golf cars in the mid-90's. By the year 2000, he had developed a product of extreme value and recognition."
+      },
+      {
+        "imageUrl": "/assets/streetrod/paintJob.png",
+        "title": "A New Era",
+        "description": "In 2015, another local company acquired Streetrod. Pritchard Companies, a family-owned automotive enterprise, saw potential in the team’s passion for building and devotion to quality. Streetrod continues to build the classic, custom cars it’s known for while also embarking on exciting new endeavors."
+      }
+    ]
+  },
+  "design": {
+    "title": "",
+    "navLinkText": "",
+    "images": [
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      }
+    ]
+  },
+  "business": {
+    "title": "Exclusive Models",
+    "navLinkText": "Exclusivity",
+    "businessPoints": [
+      {
+        "imageUrl": "/assets/streetrod/cowboys1.png",
+        "imageUrl2": "/assets/streetrod/cowboys2.png",
+        "alt": "Cowboys Themed Golf Car",
+        "title": "“Dallas Cowboys Themed” Vintage",
+        "description": "The “Dallas Cowboys Themed” Vintage model was made famous on Bryson DeChambeau’s latest episode of “Break 50” on YouTube."
+      },
+      {
+        "imageUrl": "/assets/streetrod/razorbacks1.png",
+        "imageUrl2": "/assets/streetrod/razorbacks2.png",
+        "alt": "John Daly's Golf Car",
+        "title": "John Daly “Arkansas Legend” Grit ",
+        "description": "Inspired by one of golf’s greats, John Daly. This car celebrates his time at the University of Arkansas and is built for long days on the course."
+      },
+      {
+        "imageUrl": "/assets/streetrod/shaed1.png",
+        "imageUrl2": "/assets/streetrod/shaed2.png",
+        "alt": "F-Series Lux",
+        "title": "“F-Series” Lux",
+        "description": "Created by F4 sensation Parker Wallin, this design honors his partnership with the innovative e-mobility startup shaed.ai and his determination to secure a podium finish at the Circuit of the Americas."
+      }
+    ]
+  },
+  "gallery": {
+    "navLinkText": "Gallery",
+    "images": [
+      {
+        "url": "/assets/streetrod/rearBlue.png",
+        "alt": "Front view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/streetrod/dash.png",
+        "alt": "Front view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/streetrod/sideCar.png",
+        "alt": "Side view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/streetrod/redCar.png",
+        "alt": "Interior view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/streetrod/streetrodWheel.png",
+        "alt": "Rear view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/streetrod/armyCar.png",
+        "alt": "Demo Vehicle EV on the road"
+      },
+      {
+        "url": "/assets/streetrod/flameCar.png",
+        "alt": "Demo Vehicle EV charging"
+      },
+      {
+        "url": "/assets/streetrod/blackCar.png",
+        "alt": "Rear view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/streetrod/stanceWhite.png",
+        "alt": "Rear view of the Demo Vehicle EV"
+      }
+    ]
+  },
+  "specs": {
+    "navLinkText": "",
+    "specDetails": [
+      {
+        "title": "",
+        "data": [
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          ""
+        ]
+      }
+    ]
+  },
+  "build": {
+    "navLinkText": "Build",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "",
+        "alt": "",
+        "process": [
+          {
+            "Step 1": "Customize",
+            "Step 2": "Select a Charger",
+            "Step 3": "Estimate Payment",
+            "Step 4": "Start Paperwork",
+            "Step 5": "Finalize Purchase"
+          }
+        ]
+      }
+    ]
+  }
+}

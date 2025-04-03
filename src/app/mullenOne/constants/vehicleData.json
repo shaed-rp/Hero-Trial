@@ -1,0 +1,316 @@
+{
+  "siteConfig": {
+    "title": "",
+    "description": "Official Hero Site for ",
+    "url": "",
+    "faviconUrl": "/images/favicon.ico",
+    "ogImage": "",
+    "logoUrl": "/icons/",
+    "brandName": "",
+    "link": "",
+    "brandColor": ""
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "capabilities": true,
+    "charging": true,
+    "technologies": true,
+    "design": true,
+    "business": true,
+    "gallery": false,
+    "specs": true,
+    "build": false
+  },
+  "hero": [
+    {
+      "backgroundImageUrl": "/images/",
+      "imageUrl": "/images/",
+      "title": "",
+      "description": ""
+    }
+  ],
+  "overview": {
+    "title": "",
+    "specs": [
+      {
+        "imageUrl": "/images/",
+        "description": ""
+      },
+      {
+        "description": ""
+      },
+      {
+        "description": "",
+        "imageUrl": "/images/"
+      },
+      {
+        "description": "",
+        "imageUrl": "/images/"
+      },
+      {
+        "imageUrl": "/images/",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "description": "",
+        "imageUrl": "/images/"
+      },
+      {
+        "imageUrl": "/images/",
+        "description": ""
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "",
+    "specs": [
+      {
+        "label": "",
+        "imageUrl": "/images/"
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "imageUrl": "/images/"
+      },
+      {
+        "label": "",
+        "imageUrl": "/images/"
+      },
+      {
+        "label": "",
+        "value": "",
+        "otherValue": ""
+      }
+    ]
+  },
+  "charging": {
+    "title": "",
+    "chargingOptions": [
+      {
+        "imageUrl": "/images/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "technologies": {
+    "title": "",
+    "technology": [
+      {
+        "imageUrl": "/images/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "design": {
+    "title": "",
+    "images": [
+      {
+        "imageUrl": "/images/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "alt": ""
+      }
+    ]
+  },
+  "business": {
+    "title": "",
+    "businessPoints": [
+      {
+        "imageUrl": "/images/",
+        "alt": "",
+        "title": "",
+        "description": "",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "alt": "",
+        "title": "",
+        "description": "",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/images/",
+        "alt": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "url": "/images/",
+      "alt": ""
+    },
+    {
+      "url": "/images/",
+      "alt": ""
+    },
+    {
+      "url": "/images/",
+      "alt": ""
+    },
+    {
+      "url": "/images/",
+      "alt": ""
+    },
+    {
+      "url": "/images/",
+      "alt": ""
+    },
+    {
+      "url": "/images/",
+      "alt": ""
+    },
+    {
+      "url": "/images/",
+      "alt": ""
+    }
+  ],
+  "specs": [
+    {
+      "title": "",
+      "data": [
+        {
+          "type": "",
+          "value": ""
+        },
+        {
+          "type": "",
+          "value": ""
+        },
+        {
+          "type": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "title": "",
+      "data": [
+        {
+          "type": "",
+          "value": ""
+        },
+        {
+          "type": "",
+          "value": ""
+        },
+        {
+          "type": "",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "title": "",
+      "data": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "title": "",
+      "data": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "build": {
+    "navLinkText": "",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "",
+        "alt": "",
+        "process": [
+          {
+            "Step 1": "",
+            "Step 2": "",
+            "Step 3": "",
+            "Step 4": "",
+            "Step 5": ""
+          }
+        ]
+      }
+    ]
+  }
+}

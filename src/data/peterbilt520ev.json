@@ -1,0 +1,356 @@
+{
+  "siteConfig": {
+    "title": "Peterbilt 520EV",
+    "description": "Official Hero Site for the Peterbilt 520EV",
+    "url": "https://showcase.commercialevs.com/520ev",
+    "faviconUrl": "/assets/peterbilt520ev/favicon.ico",
+    "ogImage": "/assets/peterbilt520ev/520evNoBG.png",
+    "logoUrl": "/assets/peterbilt520ev/peterbiltLogo.png",
+    "logoUrlTwo": "",
+    "brandName": "Peterbilt 520EV",
+    "link": "https://www.commercialevs.com/products/2024-peterbilt-520ev/100394",
+    "brandColor": "#BF2026"
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "business": true,
+    "capabilities": true,
+    "charging": true,
+    "businessTwo": true,
+    "technologies": true,
+    "design": false,
+    "gallery": false,
+    "specs": true,
+    "build": false
+  },
+  "hero": [
+    {
+      "backgroundImageUrl": "/assets/peterbilt520ev/videoPreview.png",
+      "backgroundVideo": "/assets/peterbilt520ev/520evDesktop.mp4",
+      "imageUrl": "/assets/peterbilt520ev/520evNoBG.png",
+      "topImageLogo": "/assets/peterbilt520ev/peterbiltLogo.png",
+      "title": "The Clean Machine",
+      "description": "Peterbilt 520EV"
+    }
+  ],
+  "overview": {
+    "title": "Overview",
+    "navLinkText": "Overview",
+    "specs": [
+      {
+        "imageUrl": "/assets/peterbilt520ev/recycleCans.png",
+        "description": "Effortlessly handle up to 1100 trash bins pickups on a single charge"
+      },
+      {
+        "description": "Ultra quiet operation - Perfect for minimizing noise"
+      },
+      {
+        "description": "Regenerative braking extends range while reducing maintenance costs",
+        "imageUrl": "/assets/peterbilt520ev/brake.png"
+      },
+      {
+        "description": "Unlock up to $160K in combined State and Federal Tax Credits",
+        "imageUrl": "/assets/peterbilt520ev/moneyPerson.svg"
+      },
+      {
+        "imageUrl": "/icons/batteryIcon.webp",
+        "description": "Long lasting 500 kWh battery with up to 120 miles of range"
+      },
+      {
+        "title": "",
+        "description": "Drive clean with zero tailpipe emissions"
+      },
+      {
+        "title": "670 HP",
+        "description": "Electric Motor"
+      },
+      {
+        "title": "",
+        "description": "CARB Compliant and HVIP Eligible"
+      },
+      {
+        "description": "Ergonomic cab design enhances driver comfort and productivity",
+        "imageUrl": "/assets/peterbilt520ev/ergonomicInterior.png"
+      },
+      {
+        "imageUrl": "",
+        "description": "Versatile configurations including right hand stand up, left-hand or right-hand drive and dual-seated drive"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "More Capable Than Ever",
+    "navLinkText": "Capability",
+    "specs": [
+      {
+        "label": "Get to work",
+        "imageUrl": "/assets/peterbilt520ev/workingTruck.png"
+      },
+      {
+        "label": "bin pickups",
+        "value": "1100"
+      },
+      {
+        "label": "of range",
+        "value": "120 Miles"
+      },
+      {
+        "label": "",
+        "imageUrl": "/assets/peterbilt520ev/charger.png"
+      },
+      {
+        "label": "With lasting confidence",
+        "imageUrl": "/assets/peterbilt520ev/checkShield.png"
+      },
+      {
+        "label": "",
+        "value": "5 year",
+        "otherValue": "battery warranty"
+      }
+    ]
+  },
+  "charging": {
+    "title": "Charging the Journey",
+    "navLinkText": "Charging",
+    "chargingOptions": [
+      {
+        "imageUrl": "/assets/peterbilt520ev/chassis.png",
+        "title": "",
+        "description": "The Peterbilt 520EV charges quickly and efficiently, with its lithium iron phosphate (LFP) batteries fully recharging in just 3-4 hours using DC fast charging. Designed for predictable refuse routes, it minimizes downtime, maximizes uptime, and offers a cost-effective, sustainable energy solution for fleet operations."
+      }
+    ]
+  },
+  "technologies": {
+    "title": "The Peterbilt EV Family",
+    "navLinkText": "EV Family",
+    "technology": [
+      {
+        "imageUrl": "/assets/peterbilt520ev/teamTrucks.png",
+        "title": "The Line-Up",
+        "description": "The Peterbilt EV family offers a cutting-edge lineup of zero-emission vehicles to meet the diverse needs of modern fleets. With the 220EV, 520EV, and 579EV, Peterbilt delivers exceptional performance, reliability, and durability while eliminating tailpipe emissions. Powered by advanced batteries, these vehicles feature fast charging, customizable designs, and Peterbilt's legacy of support, enabling businesses to achieve sustainability without sacrificing productivity."
+      },
+      {
+        "imageUrl": "/assets/peterbilt520ev/evNoBG.png",
+        "title": "Peterbilt 220EV",
+        "description": "The Peterbilt 220EV delivers up to 200 miles of range, perfect for urban delivery and regional operations. Its compact cab-over design enhances maneuverability and visibility, ideal for tight city streets. With fast charging in just 1-2 hours, downtime is minimized, and driver comfort is prioritized with a spacious, ergonomic interior. The 220EV offers sustainable performance without compromising productivity."
+      },
+      {
+        "imageUrl": "/assets/peterbilt520ev/semiNoBG.png",
+        "title": "Peterbilt 579EV",
+        "description": "The Peterbilt 579EV is a Class 8 truck built for regional haul and drayage, offering a 150-mile range per charge with regenerative braking to boost efficiency and reduce wear. Powered by lithium iron phosphate batteries and delivering up to 670 horsepower, it combines aerodynamic design with a comfortable, ergonomic interior. With fast charging in just 3 hours, it ensures minimal downtime for sustainable heavy-duty operations."
+      }
+    ]
+  },
+  "design": {
+    "title": "",
+    "navLinkText": "",
+    "images": [
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      }
+    ]
+  },
+  "business": {
+    "title": "Unlock Unprecedented Savings",
+    "navLinkText": "Savings",
+    "businessPoints": [
+      {
+        "imageUrl": "/assets/peterbilt520ev/progressFull.png",
+        "alt": "Commercial Clean Tax Credit",
+        "title": "Commercial Clean Tax Credit",
+        "description": "The Peterbilt 520EV qualifies for the Commercial Clean Vehicle Tax Credit, providing businesses with a significant federal tax incentive. For electric vehicles with a gross vehicle weight rating (GVWR) over 14,000 pounds—such as the 520EV—the credit can reach up to $40,000. This incentive lowers the upfront cost for companies transitioning to zero-emission vehicles. By taking advantage of this tax credit, businesses can reduce expenses while advancing their sustainability goals, making the 520EV an economically and environmentally smart choice for modern fleets.",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/assets/peterbilt520ev/progressMid.png",
+        "alt": "Hybrid and Zero-Emission Truck Voucher Incentive Project (HVIP)",
+        "title": "Hybrid and Zero-Emission Truck Voucher Incentive Project (HVIP)",
+        "description": "The Peterbilt 520EV is eligible for incentives through California's Hybrid and Zero-Emission Truck and Bus Voucher Incentive Project (HVIP). HVIP provides point-of-sale discounts designed to promote the adoption of zero-emission commercial vehicles within the state. For the 520EV, businesses can receive a base voucher amount of up to $120,000 per vehicle, dramatically lowering the initial cost of adding this electric truck to their fleet. By leveraging HVIP incentives, companies can achieve significant savings while supporting California's efforts to reduce emissions and advance clean transportation solutions.",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/assets/peterbilt520ev/progressLow.png",
+        "alt": "Double the Incentive with HVIP Small Fleet Adjustment",
+        "title": "Double the Incentive with HVIP Small Fleet Adjustment",
+        "description": "The Peterbilt 520EV qualifies for substantial incentives through California's Hybrid and Zero-Emission Truck and Bus Voucher Incentive Project (HVIP). For the 520EV, the base voucher amount is up to $120,000 per vehicle. Additionally, a 100% base adjustment is available, doubling the voucher to $240,000 per vehicle. This enhanced incentive applies to public and nonprofit fleets with 20 or fewer vehicles over 8,500 lbs, as well as private fleets meeting the same size criteria and annual revenues under $15 million. These incentives make the 520EV an attractive and accessible option for businesses transitioning to zero-emission vehicles.",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      }
+    ]
+  },
+  "businessTwo": {
+    "title": "Best for Business",
+    "navLinkText": "Business",
+    "businessPoints": [
+      {
+        "imageUrl": "/assets/peterbilt520ev/520evTitlePage.png",
+        "alt": "The Clean Machine",
+        "title": "The Clean Machine",
+        "description": "The Clean Machine revolutionizes waste management with its commitment to sustainability and zero emissions. Designed for commercial, residential and suburban refuse collection, this electric vehicle eliminates the noise and pollution associated with traditional diesel trucks. Its advanced electric powertrain offers impressive torque and energy efficiency, allowing operators to complete demanding routes while significantly reducing their carbon footprint. Equipped with regenerative braking and a robust battery system, the 520EV is both environmentally and economically forward-thinking, showcasing Peterbilt’s dedication to creating cleaner, quieter, and more efficient solutions for modern fleet operations.",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/assets/peterbilt520ev/truckInNYC.png",
+        "alt": "Customer Spotlight",
+        "title": "Customer Spotlight",
+        "description": "Peterbilt recently delivered three Model 520EV electric trucks to Waste Connections of New York, marking a significant step in their commitment to sustainability. These zero-emission vehicles will support waste collection operations, combining advanced technology with Peterbilt’s renowned durability and performance. The delivery underscores Waste Connections’ dedication to reducing their environmental impact and Peterbilt’s leadership in providing innovative electric solutions for the commercial vehicle industry.",
+        "buttonText": "",
+        "buttonLinkUrl": "https://www.peterbilt.com/news-and-events/press-releases/peterbilt-delivers-model-520evs-to-waste-connections-of-new-york"
+      }
+    ]
+  },
+  "gallery": {
+    "navLinkText": "",
+    "images": [
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      },
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      },
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      },
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      }
+    ]
+  },
+  "specs": {
+    "navLinkText": "Specs",
+    "specDetails": [
+      {
+        "title": "Quick Look",
+        "data": [
+          {
+            "type": "Class",
+            "value": "8"
+          },
+          {
+            "type": "Estimated Daily Range ",
+            "value": "120 Miles Per Charge"
+          },
+          {
+            "type": "Bin Pickups",
+            "value": "1,100"
+          },
+          {
+            "type": "GCWR",
+            "value": "66,000"
+          },
+          {
+            "type": "Max Horsepower",
+            "value": "670"
+          },
+          {
+            "type": "Continuous Power Rating",
+            "value": "536 hp"
+          },
+          {
+            "type": "Energy Storage Capacity",
+            "value": "400 kWh"
+          },
+          {
+            "type": "Minimum Charge Time",
+            "value": "3 Hours"
+          },
+          {
+            "type": "Front Axle & Suspension",
+            "value": "20,000 to 23,000"
+          },
+          {
+            "type": "Rear Axle & Suspension",
+            "value": "46,000"
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          ""
+        ]
+      }
+    ]
+  },
+  "build": {
+    "navLinkText": "",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "",
+        "alt": "",
+        "process": [
+          {
+            "Step 1": "",
+            "Step 2": "",
+            "Step 3": "",
+            "Step 4": "",
+            "Step 5": ""
+          }
+        ]
+      }
+    ]
+  }
+}

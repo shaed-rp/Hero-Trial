@@ -1,0 +1,323 @@
+.capability {
+  padding: 4rem 0;
+}
+
+.capabilityContainer {
+  margin: 0 auto;
+  padding: 0 150px;
+}
+
+.title {
+  font-size: 8vh;
+  margin-bottom: 60px;
+  text-align: start;
+  color: #333;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.specsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.specItem {
+  display: flex;
+  align-items: baseline;
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
+
+  &.slideFromRight {
+    transform: translateX(50px);
+  }
+
+  &.slideIn {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.withBorder {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+.imageCard {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  max-height: 200px;
+  min-height: 200px;
+  background-color: #f9fbfc;
+  padding: 1rem;
+
+  p {
+    font-size: 36px;
+    line-height: 32px;
+  }
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  img {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 200%;
+    height: 200%;
+    object-fit: contain;
+  }
+}
+
+.specContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  color: #333;
+}
+
+.labelWrapper {
+  align-self: flex-start;
+}
+
+.valueWrapper {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.batteryCapacity {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.rightAligned {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  height: 100%;
+}
+
+.specLabel {
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+}
+
+.valueContainer {
+  display: flex;
+  align-items: baseline;
+}
+
+.specValue {
+  margin-top: 0;
+  margin-right: 20px;
+  font-size: 12vh;
+  line-height: 100px;
+}
+
+.specUnit {
+  font-size: 4vh;
+}
+
+.specOtherValue {
+  margin-bottom: 20px;
+  font-size: 4vh;
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .capability {
+    padding: 2rem 1rem;
+  }
+
+  .capabilityContainer {
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  .title {
+    font-size: 4vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .imageCard {
+    height: 150px;
+    display: flex;
+    max-height: 150px;
+    min-height: 150px;
+    padding: 1rem;
+  }
+
+  .specLabel {
+    font-size: 0.9rem;
+  }
+
+  .value {
+    font-size: 2.5rem;
+  }
+
+  .unit {
+    font-size: 1.25rem;
+  }
+
+  .additionalInfo {
+    font-size: 1.25rem;
+  }
+
+  .specUnit {
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .capability {
+    padding: 2rem 0;
+  }
+
+  .capabilityContainer {
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 6vw;
+    margin-bottom: 30px;
+  }
+
+  .specsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .specItem {
+    width: 100%;
+    margin-bottom: 0;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .specLabel {
+    font-size: 1.5rem;
+  }
+
+  .withBorder {
+    border: 1px solid #e0e0e0;
+  }
+
+  .specItem:nth-child(odd) {
+    border: 2px solid #e0e0e0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: none;
+  }
+
+  .specItem:nth-child(even) {
+    border: 1px solid #e0e0e0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: none;
+    margin-bottom: 20px;
+  }
+
+  .imageCard {
+    max-height: none;
+    min-height: 250px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .imageWrapper {
+    flex-grow: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .imageWrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .specContent {
+    min-height: 150px;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .specLabel {
+    font-size: 5vw;
+    line-height: 24px;
+  }
+
+  .specValue {
+    line-height: 1.2;
+  }
+
+  .specOtherValue {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .specLabel {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .labelWrapper {
+    align-self: center;
+  }
+
+  .specContent {
+    justify-content: flex-start;
+    width: 100%;
+  }
+
+  .specValue {
+    font-size: 3rem;
+  }
+
+  .specUnit,
+  .specOtherValue {
+    font-size: 0.9rem;
+  }
+
+  .valueWrapper {
+    align-self: center;
+    text-align: center;
+  }
+
+  .batteryCapacity {
+    align-self: center;
+    text-align: center;
+  }
+
+  .rightAligned {
+    align-items: center;
+    width: 100%;
+  }
+}

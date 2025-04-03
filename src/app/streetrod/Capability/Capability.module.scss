@@ -1,0 +1,136 @@
+.capability {
+  padding: 4rem 0;
+}
+
+.capabilityContainer {
+  margin: 0 auto;
+  padding: 0 150px;
+}
+
+.title {
+  font-size: 8vh;
+  margin-bottom: 60px;
+  text-align: start;
+  color: #333;
+  font-weight: bold;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.specsContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.specItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
+  background-color: #f9fbfc;
+  border-radius: 10px;
+  overflow: hidden;
+
+  &.slideIn {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.imageCard {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageWrapper {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  img {
+    object-fit: cover;
+  }
+}
+
+.specContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 1.5rem;
+  color: #333;
+}
+
+.labelWrapper {
+  margin-bottom: 0.5rem;
+}
+
+.labelWrapper,
+.valueWrapper {
+  width: 100%;
+}
+
+.specLabel {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+.specValue {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+.rightAligned {
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .capabilityContainer {
+    padding: 0 32px;
+  }
+
+  .title {
+    font-size: 6vh;
+  }
+
+  .specLabel {
+    font-size: 1.3rem;
+  }
+
+  .specValue {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .specsContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .capabilityContainer {
+    padding: 0 16px;
+  }
+
+  .title {
+    font-size: 5vh;
+  }
+
+  .specLabel {
+    font-size: 1.2rem;
+  }
+
+  .specValue {
+    font-size: 0.9rem;
+  }
+}

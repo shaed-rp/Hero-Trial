@@ -1,0 +1,272 @@
+.navbar {
+  --brand-color: #259223;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition:
+    box-shadow 0.3s ease,
+    border-bottom 0.3s ease;
+}
+
+.navbar.scrolled {
+  border-bottom: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-height: 80px;
+}
+
+.promasterLogo {
+  width: 400px !important;
+  height: 70px !important;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.logoOne,
+.logoTwo {
+  height: auto;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks li {
+  display: inline;
+}
+
+.navLinks a {
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.navLinks a:hover {
+  color: black;
+}
+
+.navLinks a.active {
+  position: relative;
+}
+
+.navLinks a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--brand-color);
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.bar.open:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.bar.open:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.buyNowButton {
+  background-color: var(--brand-color);
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--brand-color);
+  }
+}
+
+.requestInfoButton {
+  color: #fff !important;
+  padding: 0.25rem 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .navContainer {
+    padding: 1rem 32px;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 80px);
+    position: fixed;
+    top: 80px;
+    right: -100%;
+    background-color: #fff;
+    border-top: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    transition: right 0.3s ease;
+  }
+
+  .navLinks.open {
+    right: 0;
+  }
+
+  .navLinks li {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  .navLinks.open li {
+    animation: slideInFromRight 0.5s forwards;
+  }
+
+  .navLinks li:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .navLinks li:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .navLinks li:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  .navLinks li:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  .navLinks li:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  .navLinks li:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  .navLinks li:nth-child(7) {
+    animation-delay: 0.7s;
+  }
+  .navLinks li:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .bar.open:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .bar.open:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+}
+
+.navLinks .buyNowButton {
+  background-color: var(--brand-color);
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: var(--brand-color);
+  }
+}
+
+@media (min-width: 768px) {
+  .logoOne {
+    width: 200px;
+    height: 50px;
+  }
+
+  .logoTwo {
+    width: 150px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .logoOne {
+    width: 120px;
+    height: 30px;
+  }
+
+  .logoTwo {
+    width: 100px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navContainer {
+    padding: 1rem 16px;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

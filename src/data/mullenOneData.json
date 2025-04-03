@@ -1,0 +1,313 @@
+{
+  "siteConfig": {
+    "title": "Mullen ONE",
+    "description": "Official website for the Mullen ONE",
+    "url": "https://showcase.commercialevs.com/mullenOne",
+    "faviconUrl": "/assets/mullenOne/favicon.ico",
+    "ogImage": "/assets/mullenOne/mullenOneNobackground.webp",
+    "logoUrl": "/assets/mullenOne/mullenLogo.svg",
+    "brandName": "ONE EV",
+    "link": "https://www.commercialevs.com/products/2024-mullen-one/100219",
+    "brandColor": "#4CD7A2"
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "capabilities": true,
+    "charging": true,
+    "technologies": false,
+    "design": false,
+    "business": true,
+    "gallery": false,
+    "specs": true,
+    "build": false
+  },
+  "video": "https://www.youtube.com/embed/3gIl62DMLMA?si=OFB-gY_X58EhRWr7",
+  "hero": [
+    {
+      "backgroundVideo": "/assets/mullenOne/tokyo.mp4",
+      "backgroundImageUrl": "/assets/mullenOne/city4Enhanced.jpeg",
+      "imageUrl": "/assets/mullenOne/mullenOneNobackground.webp",
+      "title": "Meet the Mullen One",
+      "description": "This urban trailblazer offers zero emissions, cost savings, and potential tax benefits—and is perfect for navigating tight city streets. Electrify your fleet today for a sustainable tomorrow!"
+    }
+  ],
+  "overview": {
+    "title": "Overview",
+    "navLinkText": "Overview",
+    "specs": [
+      {
+        "imageUrl": "/icons/boxes.webp",
+        "description": "Max Payload Capacity: 1683 lbs"
+      },
+      {
+        "description": "Zero-Emission Powertrain"
+      },
+      {
+        "description": "Ergonomic Interior Design",
+        "imageUrl": "/assets/mullenOne/interior.png"
+      },
+      {
+        "description": "Flexible Leasing from $475/month",
+        "imageUrl": "/icons/money.webp"
+      },
+      {
+        "imageUrl": "/assets/mullenOne/advancedTech.png",
+        "description": "Integrated Advanced Telematics"
+      },
+      {
+        "title": "",
+        "description": "Refrigerated Unit Coming Soon"
+      },
+      {
+        "title": "Dual",
+        "description": "Charging Capabilities"
+      },
+      {
+        "title": "",
+        "description": "Eligible for Tax Incentives"
+      },
+      {
+        "description": "Optimized for Urban Maneuverability",
+        "imageUrl": "/assets/mullenOne/turnRadius.png"
+      },
+      {
+        "imageUrl": "/assets/mullenOne/mullenOneInteriorCharger.png",
+        "description": "Built-In Mobile Office Features"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "More Capable Than Ever",
+    "navLinkText": "Capability",
+    "specs": [
+      {
+        "label": "Get to work",
+        "imageUrl": "/assets/mullenOne/mullenInteriorBack.jpg"
+      },
+      {
+        "label": "Expansive Cargo Capacity",
+        "value": "20% More cargo room"
+      },
+      {
+        "label": "Range",
+        "value": "110 miles"
+      },
+      {
+        "label": "And keep it going",
+        "imageUrl": "/assets/mullenOne/mullenOneNobackground.webp"
+      },
+      {
+        "label": "With lasting confidence",
+        "imageUrl": "/assets/mullenOne/warrantyBadge.png"
+      },
+      {
+        "label": "Basic Limited Warranty",
+        "value": "8 years",
+        "otherValue": "100,000 miles"
+      }
+    ]
+  },
+  "charging": {
+    "title": "Comprehensive Cost Efficiency",
+    "navLinkText": "Cost Efficiency",
+    "chargingOptions": [
+      {
+        "imageUrl": "/assets/mullenOne/ONEVan3.png",
+        "title": "Competitive Price Point",
+        "description": "With an MSRP of $34,500, the Mullen ONE stands out as an economical electric vehicle, delivering exceptional value and electrification at a competitive price point. Its affordability makes it an attractive choice for businesses looking to transition to electric without breaking the bank."
+      },
+      {
+        "imageUrl": "/assets/mullenOne/1726943142318.jpeg",
+        "title": "Maximize Savings with Tax Credits",
+        "description": "Get ready to electrify your savings! The Mullen ONE qualifies for up to $7,500 in tax credits, drastically reducing the total cost of ownership. This exciting financial incentive not only enhances its unbeatable value but also makes the Mullen ONE an irresistible choice for anyone looking to invest in an electric vehicle (even more available in Massachusetts!)."
+      }
+    ]
+  },
+  "technologies": {
+    "title": "",
+    "navLinkText": "",
+    "technology": [
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "design": {
+    "title": "",
+    "navLinkText": "",
+    "images": [
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      }
+    ]
+  },
+  "business": {
+    "title": "Best for Business",
+    "navLinkText": "Business",
+    "businessPoints": [
+      {
+        "imageUrl": "/assets/mullenOne/mullenSide.jpg",
+        "alt": "Urban Warrior",
+        "title": "Urban Warrior",
+        "description": "The Mullen ONE is designed for urban environments, offering an efficient electric cargo solution with its compact size, 110-mile range, and easy maneuverability. It excels in city settings by providing zero emissions, a generous cargo capacity for deliveries, and cost-effective operation, making it ideal for businesses navigating tight spaces and high-traffic areas.",
+        "buttonText": "Learn More",
+        "buttonLinkUrl": "https://www.commercialevs.com/products/2024-mullen-one/100219"
+      },
+      {
+        "imageUrl": "/assets/mullenOne/mullenOnePoppy.png",
+        "alt": "Customer Testimonial",
+        "title": "Customer Testimonial",
+        "description": "Native Poppy Florist tested the Mullen ONE electric cargo van for their local deliveries in San Diego, praising its substantial cargo space and reliable 110 miles of range. The van exceeded expectations in some cases, achieving up to 132 miles, and offered cost savings on fuel. Native Poppy found the Mullen ONE to be an ideal choice for their needs, highlighting its affordability and performance for daily operations.",
+        "buttonText": "Testimonial",
+        "buttonLinkUrl": "https://mullencommercial.com/native-poppy-case-study"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "",
+    "navLinkText": "Design",
+    "images": [
+      {
+        "url": "/images/",
+        "alt": ""
+      },
+      {
+        "url": "/images/",
+        "alt": ""
+      },
+      {
+        "url": "/images/",
+        "alt": ""
+      },
+      {
+        "url": "/images/",
+        "alt": ""
+      },
+      {
+        "url": "/images/",
+        "alt": ""
+      },
+      {
+        "url": "/images/",
+        "alt": ""
+      },
+      {
+        "url": "/images/",
+        "alt": ""
+      }
+    ]
+  },
+  "specs": {
+    "navLinkText": "Specs",
+    "specDetails": [
+      {
+        "title": "Pricing",
+        "data": [
+          {
+            "type": "MSRP",
+            "value": "$34,500"
+          }
+        ]
+      },
+      {
+        "title": "Cargo Features",
+        "data": [
+          {
+            "type": "Sliding Doors",
+            "value": "Left and Right"
+          },
+          {
+            "type": "Rear Access",
+            "value": "Lift Gate"
+          },
+          {
+            "type": "LED Cargo Light",
+            "value": "Standard"
+          },
+          {
+            "type": "Heavy Duty Floor Protector",
+            "value": "Front and Rear"
+          },
+          {
+            "type": "Cargo Tie Down Hooks",
+            "value": "(6)"
+          }
+        ]
+      },
+      {
+        "title": "Quick Look",
+        "data": [
+          "Class - 1",
+          "GVWR - 4881 lbs",
+          "Range - 110 miles",
+          "Cargo Volume - 157 cu ft",
+          "Drive Type - RWD",
+          "Wheelbase - 120 inches",
+          "LxWxH - 186x64x75",
+          "Battery - 42Kw",
+          "Motor - 60 Kw",
+          "Transmission - 1 speed automatic",
+          "Warranty - 3 year, 36,000 mile bumper to bumper",
+          "Battery Warranty - 8 year, 100,000 mile"
+        ]
+      }
+    ]
+  },
+  "build": {
+    "navLinkText": "Build",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "/images/",
+        "alt": "Vehicle Image",
+        "process": [
+          {
+            "Step 1": "Customize",
+            "Step 2": "Select a Charger",
+            "Step 3": "Estimate Payment",
+            "Step 4": "Start Paperwork",
+            "Step 5": "Finalize Purchase"
+          }
+        ]
+      }
+    ]
+  }
+}

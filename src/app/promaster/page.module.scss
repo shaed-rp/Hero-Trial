@@ -1,0 +1,77 @@
+.home {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.sectionContent {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.heroSection {
+  background-color: var(--hero-bg-color);
+}
+
+.overviewSection {
+  background-color: var(--overview-bg);
+}
+
+.capabilitySection {
+  background-color: var(--capability-bg-color);
+}
+
+.chargingSection {
+  background-color: var(--brand-color);
+}
+
+.technologySection {
+  background-color: var(--technology-bg-color);
+}
+
+.designSection {
+  background-color: var(--design-bg-color);
+}
+
+.businessSection {
+  background-color: var(--business-bg-color);
+}
+
+.gallerySection {
+  background-color: var(--brand-color);
+}
+
+.specsSection {
+  background-color: var(--specs-bg);
+}
+
+.buildSection {
+  background-color: var(--build-bg);
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.modalText {
+  color: #333;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .sectionContent {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionContent {
+    padding: 0 16px;
+  }
+}

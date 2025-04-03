@@ -1,0 +1,158 @@
+.design {
+  background-color: var(--design-bg-color, #f9fafb);
+  padding: 60px 0;
+
+  .title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+
+  .imageGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.5rem;
+    height: 100vh;
+
+    .imageContainer {
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      transition:
+        opacity 0.6s ease-out,
+        transform 0.6s ease-out;
+
+      &.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      &.large {
+        grid-column: span 3;
+        grid-row: span 1;
+      }
+
+      &.tall {
+        grid-column: span 1;
+        grid-row: span 2;
+      }
+
+      &.small {
+        grid-column: span 1;
+        grid-row: span 1;
+      }
+
+      .image {
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .design {
+    padding: 32px 0;
+
+    .imageGrid {
+      grid-template-columns: repeat(2, 1fr);
+
+      .imageContainer {
+        aspect-ratio: 16 / 9;
+
+        &.large {
+          grid-column: span 2;
+          grid-row: span 1;
+        }
+
+        &.tall,
+        &.small {
+          grid-column: span 1;
+          grid-row: span 1;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          aspect-ratio: 4 / 3.5;
+          align-self: center;
+        }
+
+        &:nth-child(4),
+        &:nth-child(5) {
+          margin-top: -20px;
+          aspect-ratio: 4 / 3;
+          align-self: start;
+        }
+
+        .image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .design {
+    padding: 30px 15px;
+
+    .imageGrid {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+
+      .imageContainer {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        margin-bottom: 1rem;
+
+        &.large,
+        &.tall,
+        &.small {
+          grid-column: unset;
+          grid-row: unset;
+        }
+
+        &::before {
+          content: none;
+        }
+
+        .image {
+          position: relative !important;
+          height: 100% !important;
+          width: 100% !important;
+        }
+
+        &:nth-child(4),
+        &:nth-child(5) {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .design {
+    padding: 20px 10px;
+
+    .imageGrid {
+      gap: 0.5rem;
+
+      .imageContainer {
+        aspect-ratio: 4 / 3;
+        margin-bottom: 0rem;
+      }
+    }
+  }
+}

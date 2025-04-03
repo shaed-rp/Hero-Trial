@@ -1,0 +1,323 @@
+.specs {
+  background-color: var(--specs-bg-color);
+}
+
+.specsContainer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 12vw;
+}
+
+.title {
+  text-align: left;
+  margin-bottom: 60px;
+  font-size: 8vh;
+  line-height: 100px;
+  font-weight: bold;
+  color: #333;
+}
+
+.specGrid {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.leftColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.rightColumn {
+  flex: 1;
+  min-height: 1px;
+}
+
+.specSection {
+  background-color: white;
+  border: 1px solid #d9dad9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s ease,
+    transform 0.5s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sectionTitle {
+  font-size: 24px;
+  line-height: 30px;
+  color: #333;
+  flex: 0 0 30%;
+}
+
+.sectionContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.specItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+
+.specType {
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.specValue {
+  font-weight: 500;
+  color: #333;
+  text-align: right;
+}
+
+.featureList {
+  display: flex;
+  flex-direction: column;
+}
+
+.interiorFeatureList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 300px;
+}
+
+.exteriorFeatures {
+  display: flex;
+  align-items: flex-start;
+
+  .sectionTitle {
+    flex: 0 0 60%;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .featureList {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 2px;
+  }
+
+  .feature {
+    margin-bottom: 2px;
+    color: #666;
+  }
+}
+
+.interiorFeatures {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+
+  .sectionTitle {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .featureColumns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .featureColumn {
+    width: 100%;
+  }
+}
+
+.interiorFeatures .feature {
+  margin-bottom: 2px;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 2px;
+}
+
+.bottomSection {
+  margin-top: 30px;
+  width: 100%;
+  padding: 0;
+}
+
+.bottomSection .interiorFeatures {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.thankYouText {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.moreInfoButton {
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .specs {
+    margin: 0 4vw;
+    padding: 2rem 0;
+  }
+
+  .specsContainer {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 4vh;
+    line-height: 2rem;
+    margin-bottom: 32px;
+  }
+
+  .specGrid {
+    flex-direction: column;
+  }
+
+  .leftColumn,
+  .rightColumn {
+    width: 100%;
+  }
+
+  .specSection {
+    width: 100%;
+  }
+
+  .exteriorFeatures,
+  .interiorFeatures {
+    display: flex;
+    align-items: flex-start;
+
+    .sectionTitle {
+      flex: 0 0 30%;
+      margin-right: 20px;
+      margin-bottom: 0;
+    }
+  }
+
+  .exteriorFeatures {
+    .sectionTitle {
+      flex: 0 0 60%;
+    }
+
+    .featureList {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .interiorFeatures {
+    .featureColumns {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .featureColumn {
+      width: 48%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .specsContainer {
+    margin: 0 15px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .specSection {
+    padding: 15px;
+    flex-direction: column;
+  }
+
+  .sectionTitle {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  }
+
+  .specItem,
+  .feature {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .exteriorFeatures,
+  .interiorFeatures {
+    .sectionTitle {
+      font-size: 18px;
+      line-height: 24px;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .featureColumns {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .featureColumn {
+      width: 48%;
+    }
+  }
+
+  .pricingPowertrain {
+    .sectionTitle {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+
+    .sectionContent {
+      width: 100%;
+    }
+  }
+
+  .thankYouText {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .moreInfoButton {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}

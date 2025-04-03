@@ -1,0 +1,323 @@
+{
+  "siteConfig": {
+    "title": "RAM EV",
+    "description": "Official website for the all new RAM ProMaster EV",
+    "url": "https://commercialevs.com",
+    "faviconUrl": "/assets/promaster/favicon.ico",
+    "ogImage": "/assets/promaster/promasterEV.webp",
+    "logoUrl": "/assets/promaster/bannerLogo.png",
+    "brandName": "RAM EV",
+    "link": "https://www.commercialevs.com/products/2024-ram-3500-promaster-ev/100218",
+    "brandColor": "#145484"
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "capabilities": true,
+    "charging": true,
+    "technologies": true,
+    "design": true,
+    "business": true,
+    "gallery": true,
+    "specs": true,
+    "build": true
+  },
+  "hero": [
+    {
+      "backgroundImageUrl": "/assets/promaster/warehouse.webp",
+      "imageUrl": "/assets/promaster/promasterEV.webp",
+      "title": "The All-New RAM ProMaster EV",
+      "description": "Transform your business with customizable models, zero-emission solutions and access to potential tax credits. The future of work is within reach."
+    }
+  ],
+  "overview": {
+    "title": "Overview",
+    "navLinkText": "Overview",
+    "specs": [
+      {
+        "imageUrl": "/assets/promaster/boxes.webp",
+        "description": "Maximize Capacity with a 3,020 lb Payload"
+      },
+      {
+        "description": "Drive Clean with Zero Tailpipe Emissions"
+      },
+      {
+        "description": "Premium Interior for Driver Comfort",
+        "imageUrl": "/assets/promaster/interior.jpg"
+      },
+      {
+        "description": "Long-lasting 110 kWh Battery with up to 162 Miles of Range",
+        "imageUrl": "/assets/promaster/batteryIcon.webp"
+      },
+      {
+        "imageUrl": "/assets/promaster/dashImage.jpg",
+        "description": "Cutting-Edge Technology for Smarter Driving"
+      },
+      {
+        "title": "268 HP",
+        "description": "Electric Motor"
+      },
+      {
+        "title": "",
+        "description": "Versatile Charging with 3 Options"
+      },
+      {
+        "title": "",
+        "description": "Eligible for Tax Deductions"
+      },
+      {
+        "description": "Seamless Charging with a Smart Port",
+        "imageUrl": "/assets/promaster/fuelCharge.png"
+      },
+      {
+        "imageUrl": "/assets/promaster/sideVanShot.png",
+        "description": "Redesigned Side Pocket Door for Easy Access"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "More Capabal Than Ever",
+    "navLinkText": "Capability",
+    "specs": [
+      {
+        "label": "Get to work",
+        "imageUrl": "/assets/promaster/vanSkeleton.png"
+      },
+      {
+        "label": "Maximum Torque (LB-FT)",
+        "value": "302 lb-ft"
+      },
+      {
+        "label": "Battery Capacity",
+        "value": "110 kwh"
+      },
+      {
+        "label": "And keep it going",
+        "imageUrl": "/assets/promaster/batterySkeleton.png"
+      },
+      {
+        "label": "With lasting confidence",
+        "imageUrl": "/assets/promaster/warrantyBadge.png"
+      },
+      {
+        "label": "Battery Limited Warranty",
+        "value": "8 years",
+        "otherValue": "100,000 miles"
+      }
+    ]
+  },
+  "charging": {
+    "title": "Powering the Journey",
+    "navLinkText": "Charging",
+    "chargingOptions": [
+      {
+        "imageUrl": "/assets/promaster/chargerWithPromaster.webp",
+        "title": "Charger Options",
+        "description": "Charging the Ram ProMaster® EV is easy with the available Level 2 charger. It can charge a battery overnight so it’s ready for work the next day. And recharge the van while on a lunch break with the Level 3 charger, which can charge the van in under an hour. A Level 1 charger also comes standard."
+      },
+      {
+        "imageUrl": "/assets/promaster/fuelCharge.png",
+        "title": "Smart Charging Port",
+        "description": "Whether you’re indoors or outdoors, charge up via an available and easy-to-use quick-release mount with a lockable, weatherproof enclosure."
+      }
+    ]
+  },
+  "technologies": {
+    "title": "High-Tech Features",
+    "navLinkText": "Technology",
+    "technology": [
+      {
+        "imageUrl": "/assets/promaster/infotainment.webp",
+        "title": "Infotainment System",
+        "description": "Enhance every drive with the Uconnect® 5 system, featuring a 10-inch touchscreen that delivers lightning-fast responsiveness and customizable settings—keeping drivers connected, informed, and in control."
+      },
+      {
+        "imageUrl": "/assets/promaster/dash.webp",
+        "title": "Driver Information Digital Cluster",
+        "description": "Stay informed on the road with the high-tech Driver Information Digital Cluster, featuring a vibrant 7-inch color display that delivers essential driving details—ensuring a smarter, more efficient driving experience."
+      },
+      {
+        "imageUrl": "/assets/promaster/chargerWithPromaster.webp",
+        "title": "Charging Identification Lights",
+        "description": "Easily monitor your van’s charging status with five dashboard indicator lights, designed to provide real-time updates. This smart solution keeps you informed and ready to stay productive, even on the busiest worksites."
+      },
+      {
+        "imageUrl": "/assets/promaster/dash.webp",
+        "title": "Power Status",
+        "description": "Stay in control with real-time charging updates right from the cabin. In addition to the digital dashboard gauge, the Uconnect® touchscreen displays charge status, level, and time to completion—along with essential insights like range, nearby charging locations, and more."
+      }
+    ]
+  },
+  "design": {
+    "title": "Designed to Get Work Done",
+    "navLinkText": "Design",
+    "images": [
+      {
+        "imageUrl": "/assets/promaster/fullSidePromaster.webp",
+        "alt": "design1"
+      },
+      {
+        "imageUrl": "/assets/promaster/interior.jpg",
+        "alt": "design2"
+      },
+      {
+        "imageUrl": "/assets/promaster/rearPromasterEV.webp",
+        "alt": "design3"
+      },
+      {
+        "imageUrl": "/assets/promaster/rearInsidePromasterEV.webp",
+        "alt": "design4"
+      },
+      {
+        "imageUrl": "/assets/promaster/frontPromasterEV.webp",
+        "alt": "design5"
+      }
+    ]
+  },
+  "business": {
+    "title": "Good for Business",
+    "navLinkText": "Business",
+    "businessPoints": [
+      {
+        "imageUrl": "/assets/promaster/parkedPromaster.webp",
+        "alt": "Rear ProMaster Image",
+        "title": "Tax Benefits",
+        "description": "Driving an All-New Ram ProMaster® EV can come with tax benefits like the Section 168(k) Tax Deduction that can help boost your bottom line. Dive into the link below to discover how making the switch can be cost-effective for you and your business. Create an account on CommercialEVs.com to see grants and incentives in your area!",
+        "buttonText": "Learn More",
+        "buttonLinkUrl": "https://www.commercialevs.com/products/2024-ram-3500-promaster-ev-upfitted/100218"
+      },
+      {
+        "imageUrl": "/assets/promaster/parkedPromasterSide.webp",
+        "alt": "Side ProMaster Image",
+        "title": "Big Business Benefits",
+        "description": "With great business-focused features and benefits like expedited service, shuttles and loaner vehicles, included with the BusinessLink Program, owners can help streamline their businesses as preferred commercial customers.",
+        "buttonText": "Explore BusinessLink",
+        "buttonLinkUrl": "https://www.ramtrucks.com/ram-professional/businesslink.html"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Vehicle Gallery",
+    "navLinkText": "Gallery",
+    "images": [
+      {
+        "url": "/assets/promaster/frontPromasterEV.webp",
+        "alt": "Front view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/promaster/parkedPromaster.webp",
+        "alt": "Side view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/promaster/infotainment.webp",
+        "alt": "Interior view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/promaster/dash.webp",
+        "alt": "Rear view of the Demo Vehicle EV"
+      },
+      {
+        "url": "/assets/promaster/rearInsidePromasterEV.webp",
+        "alt": "Demo Vehicle EV on the road"
+      },
+      {
+        "url": "/assets/promaster/promasterInterior.webp",
+        "alt": "Demo Vehicle EV charging"
+      },
+      {
+        "url": "/assets/promaster/ramDriving.webp",
+        "alt": "Rear view of the Demo Vehicle EV"
+      }
+    ]
+  },
+  "specs": {
+    "navLinkText": "Specs",
+    "specDetails": [
+      {
+        "title": "Pricing",
+        "data": [
+          {
+            "type": "Base Price",
+            "value": "$77,995"
+          },
+          {
+            "type": "Destination Fee",
+            "value": "$1,995"
+          },
+          {
+            "type": "Selected Options Price",
+            "value": "$0"
+          }
+        ]
+      },
+      {
+        "title": "Powertrain",
+        "data": [
+          {
+            "type": "Cylinder configuration",
+            "value": "None"
+          },
+          {
+            "type": "Drive Type",
+            "value": "Front-wheel"
+          },
+          {
+            "type": "Transmission",
+            "value": "1-speed automatic"
+          }
+        ]
+      },
+      {
+        "title": "Exterior Features",
+        "data": [
+          "H3 Roof Height",
+          "520 ft3",
+          "Walk-in Pocket Door",
+          "Rear Roll-up Door",
+          "White Noise Backup Alarm",
+          "Front & Rear Parking Sensors",
+          "Rear Roll Up Door",
+          "Rear Step",
+          "Side Step"
+        ]
+      },
+      {
+        "title": "Interior Features",
+        "data": [
+          "Walk-thru Partition w/Sliding Door (BEV only)",
+          "Pocket door walk-in steps (BEV only)",
+          "Non-skid Flooring",
+          "Grab Handles",
+          "Digital Rearview Mirror",
+          "Flat “Delivery Style” Driver Seat",
+          "Passenger Jump Seat",
+          "Heated Steering Wheel",
+          "Heated Driver Seat",
+          "LED Motion Sensing Cargo Lights",
+          "Wall Panels",
+          "Shelving",
+          "Hand Truck/Dolly",
+          "Fire Extinguisher",
+          "Safety Kit"
+        ]
+      }
+    ]
+  },
+  "build": {
+    "navLinkText": "Build",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "/assets/promaster/stockImagePromaster.webp",
+        "alt": "design1",
+        "process": [
+          {
+            "Step 1": "Customize",
+            "Step 2": "Select a Charger",
+            "Step 3": "Estimate Payment",
+            "Step 4": "Start Paperwork",
+            "Step 5": "Finalize Purchase"
+          }
+        ]
+      }
+    ]
+  }
+}

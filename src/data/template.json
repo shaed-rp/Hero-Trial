@@ -1,0 +1,360 @@
+{
+  "siteConfig": {
+    "title": "",
+    "description": "",
+    "url": "",
+    "faviconUrl": "",
+    "ogImage": "",
+    "logoUrl": "",
+    "logoUrlTwo": "",
+    "brandName": "",
+    "link": "",
+    "brandColor": ""
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "capabilities": true,
+    "charging": true,
+    "technologies": true,
+    "design": true,
+    "business": true,
+    "gallery": true,
+    "specs": true,
+    "build": true
+  },
+  "hero": [
+    {
+      "backgroundImageUrl": "",
+      "backgroundVideo": "",
+      "imageUrl": "",
+      "topImageLogo": "",
+      "title": "",
+      "description": ""
+    }
+  ],
+  "overview": {
+    "title": "",
+    "navLinkText": "",
+    "specs": [
+      {
+        "imageUrl": "",
+        "description": ""
+      },
+      {
+        "description": ""
+      },
+      {
+        "description": "",
+        "imageUrl": ""
+      },
+      {
+        "description": "",
+        "imageUrl": ""
+      },
+      {
+        "imageUrl": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": ""
+      },
+      {
+        "description": "",
+        "imageUrl": ""
+      },
+      {
+        "imageUrl": "",
+        "description": ""
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "",
+    "navLinkText": "",
+    "specs": [
+      {
+        "label": "",
+        "imageUrl": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "value": ""
+      },
+      {
+        "label": "",
+        "imageUrl": ""
+      },
+      {
+        "label": "",
+        "imageUrl": ""
+      },
+      {
+        "label": "",
+        "value": "",
+        "otherValue": ""
+      }
+    ]
+  },
+  "charging": {
+    "title": "",
+    "navLinkText": "",
+    "chargingOptions": [
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "technologies": {
+    "title": "",
+    "navLinkText": "",
+    "technology": [
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "design": {
+    "title": "",
+    "navLinkText": "",
+    "images": [
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": ""
+      }
+    ]
+  },
+  "business": {
+    "title": "",
+    "navLinkText": "",
+    "businessPoints": [
+      {
+        "imageUrl": "",
+        "alt": "",
+        "title": "",
+        "description": "",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": "",
+        "title": "",
+        "description": "",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "",
+        "alt": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "gallery": {
+    "navLinkText": "",
+    "images": [
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      },
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      },
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      },
+      {
+        "url": "",
+        "urlHover": "",
+        "alt": ""
+      }
+    ]
+  },
+  "specs": {
+    "navLinkText": "",
+    "specDetails": [
+      {
+        "title": "",
+        "data": [
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "build": {
+    "navLinkText": "",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "",
+        "alt": "",
+        "process": [
+          {
+            "Step 1": "",
+            "Step 2": "",
+            "Step 3": "",
+            "Step 4": "",
+            "Step 5": ""
+          }
+        ]
+      }
+    ]
+  }
+}

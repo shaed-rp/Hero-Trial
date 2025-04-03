@@ -1,0 +1,30 @@
+:root {
+  --color-white: #ffffff;
+  --color-light-gray: #f9fafb;
+  --color-dark-gray: #e3eaf0;
+  --cev-green: #2cf641;
+
+  --brand-color: #ffffff;
+
+  --default-hero-bg: var(--color-white);
+  --default-overview-bg: var(--color-light-gray);
+  --default-capability-bg: var(--color-white);
+  --default-charging-bg: var(--color-light-gray);
+  --default-technology-bg: var(--color-white);
+  --default-design-bg: var(--color-light-gray);
+  --default-business-bg: var(--color-white);
+  --default-gallery-bg: var(--color-light-gray);
+  --default-specs-bg: var(--color-light-gray);
+  --default-build-bg: var(--color-dark-gray);
+
+  --hero-bg: var(--default-hero-bg);
+  --overview-bg: var(--default-overview-bg);
+  --capability-bg: var(--default-capability-bg);
+  --charging-bg: var(--default-charging-bg);
+  --technology-bg: var(--default-technology-bg);
+  --design-bg: var(--default-design-bg);
+  --business-bg: var(--default-business-bg);
+  --gallery-bg: var(--default-gallery-bg);
+  --specs-bg: var(--default-specs-bg);
+  --build-bg: var(--default-build-bg);
+}

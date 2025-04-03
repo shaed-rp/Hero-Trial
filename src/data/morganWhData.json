@@ -1,0 +1,360 @@
+{
+  "siteConfig": {
+    "title": "Morgan Workhorse",
+    "description": "Official Hero Site for the Morgan Workhorse",
+    "url": "https://www.commercialevs.com",
+    "faviconUrl": "/assets/morganWorkhorse/favicon.ico",
+    "ogImage": "/assets/morganWorkhorse/NoBGSideEntryDoorClosedRemovedBG.png",
+    "logoUrl": "/assets/morganWorkhorse/MorganLogo.png",
+    "logoUrlTwo": "/assets/morganWorkhorse/WHLogo.png",
+    "brandName": "Morgan Workhorse",
+    "link": "https://www.commercialevs.com/products/2022-workhorse-w4cc%20-%20parcel%20body/100304",
+    "brandColor": "#121d8d"
+  },
+  "sectionVisibility": {
+    "overview": true,
+    "technologies": true,
+    "business": true,
+    "capabilities": true,
+    "charging": false,
+    "design": false,
+    "gallery": true,
+    "specs": true,
+    "build": false
+  },
+  "hero": [
+    {
+      "backgroundImageUrl": "/assets/morganWorkhorse/warehouse.jpeg",
+      "backgroundVideo": "/assets/morganWorkhorse/Warehouse.mp4",
+      "imageUrl": "/assets/morganWorkhorse/NoBGSideEntryDoorClosedRemovedBG.png",
+      "topImageLogo": "/assets/morganWorkhorse/",
+      "title": "The Revolutionary Parcel Delivery EV",
+      "description": "Electrifying your delivery fleet cuts costs, boosts efficiency and supports sustainability goals!"
+    }
+  ],
+  "overview": {
+    "title": "Overview",
+    "navLinkText": "Overview",
+    "specs": [
+      {
+        "imageUrl": "/icons/boxes.webp",
+        "description": "Load more, deliver more with 5,050 lb Payload"
+      },
+      {
+        "description": "Fully electric, zero-emission driving"
+      },
+      {
+        "description": "Keeping drivers comfortable during long shifts",
+        "imageUrl": "/assets/morganWorkhorse/Cab.png"
+      },
+      {
+        "description": "Power through your routes with up to 150* miles of range",
+        "imageUrl": "/icons/batteryIcon.webp"
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/Cellphone.jpg",
+        "description": "Cutting edge technology for smarter driving"
+      },
+      {
+        "title": "Class 4",
+        "description": ""
+      },
+      {
+        "title": "",
+        "description": "Enhanced safety features with improved visibility"
+      },
+      {
+        "title": "$160,000",
+        "description": "Unlocks tax deductions up to"
+      },
+      {
+        "description": "Charge effortlessly with three flexible options",
+        "imageUrl": "/icons/Charger.png"
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/BackInsideRearDoorOpen.png",
+        "description": "Space-saving foldable Masterack shelving"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "More Capabal Than Ever",
+    "navLinkText": "Capability",
+    "specs": [
+      {
+        "label": "Get to work",
+        "imageUrl": "/assets/morganWorkhorse/work.png"
+      },
+      {
+        "label": "Maximum Torque",
+        "value": "251 lb-ft"
+      },
+      {
+        "label": "Battery Capacity",
+        "value": "118 kWh"
+      },
+      {
+        "label": "And keep it going",
+        "imageUrl": "/assets/morganWorkhorse/3DModel.png"
+      },
+      {
+        "label": "With lasting confidence",
+        "imageUrl": "/assets/morganWorkhorse/warrantyIcon.png"
+      },
+      {
+        "label": "Battery Limited Warranty",
+        "value": "5 years",
+        "otherValue": "100,000 miles"
+      }
+    ]
+  },
+  "charging": {
+    "title": "",
+    "navLinkText": "",
+    "chargingOptions": [
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "title": "",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Morgan Body Benefits",
+    "navLinkText": "Body Benefits",
+    "technology": [
+      {
+        "imageUrl": "/assets/morganWorkhorse/lighterBodyImage.jpg",
+        "title": "Lighter body to increase payload capacity",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/BackSideConfig.png",
+        "title": "Easy-close, foldable shelving system by Masterack",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/CabDoorOpen.png",
+        "title": "Easy access from cab to cargo with a full height sliding door",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/SideDoor.png",
+        "title": "Morgan Maximizer side and rear entries with remote control door",
+        "description": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/BackConfig.png",
+        "title": "The translucent roof keeps the interior cool by allowing light in with minimal heat transfer",
+        "description": ""
+      }
+    ]
+  },
+  "design": {
+    "title": "",
+    "navLinkText": "Design",
+    "images": [
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "alt": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/",
+        "alt": ""
+      }
+    ]
+  },
+  "business": {
+    "title": "Unlock Unprecedented Savings",
+    "navLinkText": "Savings",
+    "businessPoints": [
+      {
+        "imageUrl": "/assets/morganWorkhorse/thermometerFull.png",
+        "alt": "",
+        "title": "Commercial Clean Tax Credit",
+        "description": "The Workhorse W4CC electric work truck qualifies for the Commercial Clean Vehicle Tax Credit, offering businesses a substantial federal tax incentive. Specifically, for electric vehicles with a gross vehicle weight rating (GVWR) over 14,000 pounds—like the W4CC—the credit can be up to $40,000. This tax credit significantly reduces the acquisition cost for companies looking to add zero-emission vehicles to their fleets. By leveraging this incentive, businesses not only benefit financially but also contribute to environmental sustainability through the adoption of clean transportation solutions.",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/thermometerMedium.png",
+        "alt": "",
+        "title": "Hybrid and Zero-Emission Truck Voucher Incentive Project (HVIP)",
+        "description": "The Workhorse W4CC electric work truck is eligible for incentives through California's Hybrid and Zero-Emission Truck and Bus Voucher Incentive Project (HVIP). HVIP offers point-of-sale discounts to encourage the adoption of zero-emission commercial vehicles within the state. For the W4CC, businesses can receive a base voucher amount of up to $60,000 per vehicle, significantly reducing the upfront cost of adding this electric truck to their fleet. By taking advantage of HVIP, companies not only benefit financially but also contribute to California's environmental goals by reducing emissions from commercial transportation.",
+        "buttonText": "",
+        "buttonLinkUrl": ""
+      },
+      {
+        "imageUrl": "/assets/morganWorkhorse/thermometerLow.png",
+        "alt": "",
+        "title": "Double the Incentive with HVIP Small Fleet Adjustment",
+        "description": "The Workhorse W4CC electric work truck qualifies for substantial incentives through California's Hybrid and Zero-Emission Truck and Bus Voucher Incentive Project (HVIP). For the W4CC, the base voucher amount is up to $60,000 per vehicle. Moreover, there's a 100% base adjustment available that effectively doubles the voucher to $120,000 per vehicle. This enhanced incentive is available for public and nonprofit fleets with 20 or fewer vehicles over 8,500 lbs, as well as private fleets that also have 20 or fewer such vehicles and annual revenues under $15 million. "
+      }
+    ]
+  },
+  "gallery": {
+    "navLinkText": "Gallery",
+    "images": [
+      {
+        "url": "/assets/morganWorkhorse/CabDoorClosed.png",
+        "urlHover": "/assets/morganWorkhorse/CabDoorOpen.png",
+        "alt": "Cab Image"
+      },
+      {
+        "url": "/assets/morganWorkhorse/NoBGSideEntryDoorClosed.png",
+        "urlHover": "/assets/morganWorkhorse/NoBGSideEntryDoorOpen.png",
+        "alt": "Side Entry Image"
+      },
+      {
+        "url": "/assets/morganWorkhorse/RearExternalDoorClosed.png",
+        "urlHover": "/assets/morganWorkhorse/RearExternalDoorOpen.png",
+        "alt": "Rear External Image"
+      },
+      {
+        "url": "/assets/morganWorkhorse/RearShelvesUpDoorClosed.png",
+        "urlHover": "/assets/morganWorkhorse/RearShelvesUpDoorOpen.png",
+        "alt": "Rear Image with Shelves Image"
+      }
+    ]
+  },
+  "specs": {
+    "navLinkText": "Specs",
+    "specDetails": [
+      {
+        "title": "Quick Look",
+        "data": [
+          {
+            "type": "Class",
+            "value": "4"
+          },
+          {
+            "type": "GVWR",
+            "value": "14,330"
+          },
+          {
+            "type": "Chassis Weight",
+            "value": "7,020"
+          },
+          {
+            "type": "Body Weight",
+            "value": "2,260"
+          },
+          {
+            "type": "Total Weight",
+            "value": "9,280"
+          },
+          {
+            "type": "Payload",
+            "value": "5,050"
+          },
+          {
+            "type": "Range",
+            "value": "150* miles"
+          },
+          {
+            "type": "Wheelbase",
+            "value": "170"
+          },
+          {
+            "type": "LxWxH",
+            "value": "278x78x96"
+          },
+          {
+            "type": "Level 2 Charge Time",
+            "value": "8 hours"
+          },
+          {
+            "type": "Level 3 Charge Time",
+            "value": "3 hours"
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          },
+          {
+            "type": "",
+            "value": ""
+          }
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "title": "",
+        "data": [
+          "* The range estimates and incentives mentioned are based on manufacturer data and available information at the time of publication. Actual vehicle range may vary depending on driving conditions, maintenance, and other factors. Incentives may vary by location and are subject to change without notice.",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "build": {
+    "navLinkText": "Build",
+    "buildSections": [
+      {
+        "vehicleImageUrl": "/assets/morganWorkhorse/",
+        "alt": "Vehicle Image",
+        "process": [
+          {
+            "Step 1": "Customize",
+            "Step 2": "Select a Charger",
+            "Step 3": "Estimate Payment",
+            "Step 4": "Start Paperwork",
+            "Step 5": "Finalize Purchase"
+          }
+        ]
+      }
+    ]
+  }
+}

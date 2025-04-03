@@ -1,0 +1,665 @@
+.overview {
+  background-color: var(--overview-bg-color);
+}
+
+.overviewContainer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 12vw;
+}
+
+.title {
+  margin-bottom: 60px;
+  font-size: 8vh;
+  line-height: 100px;
+  text-align: start;
+  color: #333;
+}
+
+.pointsContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1rem;
+
+  .pointsContainer > div {
+    transition-delay: 0s !important;
+  }
+}
+
+.point {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s,
+    transform 0.5s;
+
+  &.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.large {
+  grid-area: span 2 / span 2 / span 2 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  max-height: 400px;
+
+  &:nth-of-type(4) {
+    .imageContainer {
+      width: 100%;
+      height: 80%;
+
+      .mainImage {
+        transform: scale(1.5);
+      }
+    }
+  }
+
+  .imageContainer {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .mainImage {
+    max-width: 100%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .content {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pointTitle {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .pointDescription {
+    font-size: clamp(0.85rem, 1vw, 1.2rem);
+  }
+}
+
+.medium {
+  grid-area: span 1 / span 2 / span 1 / span 2;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 200px;
+  min-height: 200px;
+  position: relative;
+
+  .imageContainer {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      object-fit: contain;
+      object-position: center;
+      max-width: 100%;
+    }
+  }
+
+  &:nth-of-type(9) {
+    .imageContainer {
+      width: 50%;
+      height: 100%;
+
+      img {
+        transform: scale(1) !important;
+        object-fit: cover !important;
+      }
+    }
+  }
+
+  .content {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .pointTitle {
+      font-size: clamp(1.2rem, 2.5vw, 2rem);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .pointDescription {
+      font-size: clamp(0.8rem, 1.3vw, 1.4rem);
+      line-height: 1.4;
+    }
+  }
+
+  .mainImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(1);
+  }
+
+  .imageGradientLeft,
+  .imageGradientRight {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+  }
+
+  .imageGradientLeft {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    left: 50%;
+  }
+
+  .imageGradientRight {
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    right: 50%;
+  }
+}
+
+.vertical {
+  grid-area: span 2 / span 1 / span 2 / span 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .imageContainer {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .content {
+    width: 100%;
+    height: 30%;
+    padding: 1rem;
+    position: relative;
+    z-index: 2;
+
+    .pointDescription {
+      font-size: clamp(0.8rem, 1vw, 1.2rem);
+      line-height: 1.3;
+    }
+  }
+
+  .mainImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .imageGradient {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+.small {
+  grid-area: span 1 / span 1 / span 1 / span 1;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.large,
+.vertical {
+  min-height: 200px;
+  max-height: 350px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  padding: 1rem;
+  overflow-y: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleImageContainer {
+  margin-bottom: 0.5rem;
+}
+
+.titleImage {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.pointTitle {
+  font-size: clamp(1.8rem, 2vw, 3rem);
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+
+.pointDescription {
+  font-size: clamp(1rem, 1.3vw, 1.5rem);
+  color: #333;
+  line-height: 1.4;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  width: 100%;
+  font-size: 20px;
+}
+
+.large .imageContainer,
+.side .imageContainer {
+  height: 300px;
+}
+
+.large .pointTitle,
+.side .pointTitle {
+  font-size: 1.5rem;
+}
+
+.large .pointDescription,
+.side .pointDescription {
+  line-height: 1.2;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.largeImageContainer {
+  text-align: center;
+  width: 200px;
+  margin-top: -10px;
+  height: auto;
+  max-height: 200px;
+  margin: 0 auto;
+
+  .mainImage {
+    position: relative !important;
+    height: auto !important;
+    width: 100% !important;
+  }
+}
+
+.mainImage {
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .overview {
+    margin: 2rem 5vw;
+  }
+
+  .overviewContainer {
+    padding: 0;
+  }
+
+  .title {
+    font-size: 4vh;
+    line-height: 80px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pointsContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.5rem;
+  }
+
+  .large {
+    grid-area: span 2 / span 2 / span 2 / span 2;
+
+    .imageContainer {
+      padding-top: 0;
+    }
+  }
+
+  .medium {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+
+    .imageContainer {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+
+      .mainImage {
+        object-fit: contain !important;
+        object-position: center;
+        width: 100% !important;
+        height: 100% !important;
+        position: relative !important;
+      }
+    }
+
+    .content {
+      .pointDescription {
+        font-size: clamp(1rem, 2.5vw, 3rem);
+      }
+    }
+  }
+
+  .vertical {
+    grid-area: span 2 / span 2 / span 2 / span 2;
+  }
+
+  .small {
+    grid-area: span 2 / span 2 / span 1 / span 1;
+  }
+
+  .pointTitle {
+    font-size: 2.5rem;
+  }
+
+  .pointDescription {
+    font-size: clamp(1.2rem, 3vw, 3rem);
+  }
+
+  .medium {
+    &:nth-of-type(9) {
+      .imageContainer {
+        img {
+          transform: scale(1.2) !important;
+          object-fit: cover !important;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .vertical {
+    grid-area: span 2 / span 2 / span 2 / span 2;
+
+    flex-direction: row;
+    align-items: stretch;
+
+    .imageContainer {
+      width: 50%;
+      height: 100%;
+    }
+
+    .content {
+      width: 50%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .imageGradient {
+      background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+      width: 50%;
+      height: 100%;
+      left: auto;
+      right: 0%;
+      top: 0;
+      bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .overview {
+    padding: 0;
+  }
+
+  .pointsContainer {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .large,
+  .medium,
+  .vertical,
+  .small {
+    grid-area: auto / span 1 / auto / span 1;
+    min-height: 150px;
+    max-height: none;
+  }
+
+  .large {
+    max-height: none;
+    height: auto;
+
+    .imageContainer {
+      height: 200px;
+    }
+
+    .content {
+      height: auto;
+      padding: 1rem;
+      overflow: visible;
+    }
+
+    .pointTitle {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .pointDescription {
+      font-size: 1rem;
+      line-height: 1.4;
+      max-height: none;
+    }
+  }
+
+  .title {
+    font-size: 2rem;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .pointTitle {
+    font-size: clamp(1.8rem, 2vw, 3rem);
+  }
+
+  .pointDescription {
+    font-size: 1rem;
+  }
+
+  .medium {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: none;
+    min-height: auto;
+
+    .imageContainer {
+      width: 100%;
+      height: 200px;
+      position: relative;
+      overflow: hidden;
+
+      .mainImage {
+        object-fit: contain !important;
+        object-position: center;
+        width: 100% !important;
+        height: 100% !important;
+        position: relative !important;
+      }
+    }
+
+    .content {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+    }
+
+    .imageGradientLeft,
+    .imageGradientRight {
+      width: 100%;
+      height: 50%;
+      bottom: 0;
+      top: auto;
+      background-image: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .imageGradientLeft {
+      background-image: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+      left: 0;
+    }
+
+    .imageGradientRight {
+      background-image: linear-gradient(0deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+      right: 0;
+    }
+
+    .mainImage {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .small,
+  .side,
+  .large {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+
+  .vertical {
+    grid-area: auto / span 1 / auto / span 1;
+    min-height: 400px;
+    max-height: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vertical .imageContainer {
+    width: 100%;
+    height: 70%;
+    position: relative;
+  }
+
+  .vertical .content {
+    width: 100%;
+    height: 30%;
+    padding: 1rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  .vertical .mainImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .vertical .imageGradient {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .imageContainer {
+    height: 200px;
+  }
+
+  .point {
+    flex-direction: column !important;
+    justify-content: flex-start;
+    align-items: stretch;
+    max-height: none;
+    min-height: auto;
+
+    .imageContainer {
+      width: 100%;
+      height: 200px;
+      position: relative;
+      order: -1;
+    }
+
+    .content {
+      width: 100%;
+      height: auto;
+      padding: 1rem;
+    }
+
+    .mainImage {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .medium {
+    min-height: 200px;
+
+    .imageContainer {
+      width: 100% !important;
+    }
+  }
+}
