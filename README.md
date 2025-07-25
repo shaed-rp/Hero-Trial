@@ -163,4 +163,4 @@ For support and questions, please contact the development team.
 
 ---
 
-Built with ❤️ using Next.js 15 and TypeScript - Production Ready
+Built with ❤️ using Next.js 15 and TypeScript - Production Ready v0.1.1
