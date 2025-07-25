@@ -28,7 +28,7 @@ function validateEnvironmentVariables(): EnvironmentConfig {
     throw new Error('Environment validation should only run on the server side');
   }
 
-  const env = process.env as any;
+  const env = process.env as Record<string, string | undefined>;
 
   const requiredVars = [
     'EMAIL_USER',
@@ -67,15 +67,15 @@ function validateEnvironmentVariables(): EnvironmentConfig {
   }
 
   return {
-    EMAIL_USER: env.EMAIL_USER,
+    EMAIL_USER: env.EMAIL_USER!,
     EMAIL_PASS: env.EMAIL_PASS,
-    EMAIL_TO: env.EMAIL_TO,
+    EMAIL_TO: env.EMAIL_TO!,
     EMAIL_FROM_NAME: env.EMAIL_FROM_NAME,
     GMAIL_CLIENT_ID: env.GMAIL_CLIENT_ID,
     GMAIL_CLIENT_SECRET: env.GMAIL_CLIENT_SECRET,
     GMAIL_REFRESH_TOKEN: env.GMAIL_REFRESH_TOKEN,
-    NEXT_PUBLIC_RECAPTCHA_SITE_KEY: env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY,
-    RECAPTCHA_SECRET_KEY: env.RECAPTCHA_SECRET_KEY,
+    NEXT_PUBLIC_RECAPTCHA_SITE_KEY: env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY!,
+    RECAPTCHA_SECRET_KEY: env.RECAPTCHA_SECRET_KEY!,
     NEXT_PUBLIC_GTM_ID: env.NEXT_PUBLIC_GTM_ID,
     NEXT_PUBLIC_BASE_URL: env.NEXT_PUBLIC_BASE_URL,
   };
@@ -91,9 +91,9 @@ export function getValidatedEnv(): EnvironmentConfig {
 }
 
 export function isProduction(): boolean {
-  return (process.env as any).NODE_ENV === 'production';
+  return (process.env as Record<string, string | undefined>).NODE_ENV === 'production';
 }
 
 export function isDevelopment(): boolean {
-  return (process.env as any).NODE_ENV === 'development';
+  return (process.env as Record<string, string | undefined>).NODE_ENV === 'development';
 } 

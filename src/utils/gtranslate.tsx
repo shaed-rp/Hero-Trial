@@ -3,7 +3,7 @@ import Script from 'next/script';
 const GTranslate = () => {
   return (
     <>
-      <Script id='gtranslate-settings' strategy='beforeInteractive'>
+      <Script id='gtranslate-settings' strategy='afterInteractive'>
         {`
           window.gtranslateSettings = {
             "default_language": "en",

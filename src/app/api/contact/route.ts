@@ -12,13 +12,21 @@ interface ContactFormData {
 }
 
 // Validation function
-function validateContactData(data: any): data is ContactFormData {
+function validateContactData(data: unknown): data is ContactFormData {
   if (!data || typeof data !== 'object') return false;
   
-  const { firstName, lastName, email, siteTitle, captchaToken } = data;
+  const obj = data as Record<string, unknown>;
+  const { firstName, lastName, email, siteTitle, captchaToken } = obj;
   
   // Check required fields
   if (!firstName || !lastName || !email || !siteTitle || !captchaToken) {
+    return false;
+  }
+  
+  // Type check for strings
+  if (typeof firstName !== 'string' || typeof lastName !== 'string' || 
+      typeof email !== 'string' || typeof siteTitle !== 'string' || 
+      typeof captchaToken !== 'string') {
     return false;
   }
   
@@ -63,7 +71,7 @@ async function verifyCaptcha(token: string): Promise<boolean> {
 }
 
 function createTransporter() {
-  const env = process.env as any;
+  const env = process.env as Record<string, string | undefined>;
   
   // Check if OAuth2 credentials are available
   if (env.GMAIL_CLIENT_ID && env.GMAIL_CLIENT_SECRET && env.GMAIL_REFRESH_TOKEN) {
@@ -133,7 +141,7 @@ export async function POST(request: Request) {
     const sanitizedCompany = company ? company.trim() : 'Not provided';
     const sanitizedSiteTitle = siteTitle.trim();
 
-    const env = process.env as any;
+    const env = process.env as Record<string, string | undefined>;
     const mailOptions = {
       from: `"${env.EMAIL_FROM_NAME || 'Hero Page'}" <${env.EMAIL_USER}>`,
       to: env.EMAIL_TO,
