@@ -21,6 +21,8 @@ A modern Next.js application showcasing commercial electric vehicles with intera
 - **Authentication**: Google reCAPTCHA
 - **Email**: Nodemailer with Gmail
 - **Analytics**: Google Analytics 4, Google Tag Manager
+- **Testing**: Jest, React Testing Library, Playwright
+- **Performance**: Core Web Vitals monitoring
 - **Deployment**: Docker, Kubernetes (Helm)
 - **Translation**: GTranslate
 
@@ -117,6 +119,10 @@ helm install hero-trial ./helm
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
+- `npm run test` - Run unit tests
+- `npm run test:watch` - Run tests in watch mode
+- `npm run test:coverage` - Run tests with coverage report
+- `npm run test:e2e` - Run end-to-end tests
 
 ## 🔒 Security Features
 
@@ -132,6 +138,8 @@ The application includes:
 - Google Tag Manager for flexible tag management
 - Form submission tracking
 - Page view analytics
+- Core Web Vitals monitoring
+- Performance metrics tracking
 
 ## 🌐 Multi-language Support
 

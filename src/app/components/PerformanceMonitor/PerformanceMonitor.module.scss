@@ -1,0 +1,61 @@
+.performanceMonitor {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 12px;
+  z-index: 9999;
+  min-width: 200px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  h3 {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #00ff88;
+  }
+}
+
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.metric {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.label {
+  color: #cccccc;
+  font-weight: 500;
+}
+
+.value {
+  color: #00ff88;
+  font-weight: 600;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+}
+
+@media (max-width: 768px) {
+  .performanceMonitor {
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    min-width: auto;
+    font-size: 11px;
+  }
+} 

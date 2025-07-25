@@ -1,0 +1,105 @@
+.errorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.errorContent {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+.errorTitle {
+  color: #e53e3e;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.errorMessage {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.retryButton {
+  background: #3182ce;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: #2c5aa0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(49, 130, 206, 0.3);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.errorDetails {
+  margin-top: 2rem;
+  text-align: left;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1rem;
+
+  summary {
+    color: #718096;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+    &:hover {
+      color: #4a5568;
+    }
+  }
+}
+
+.errorStack {
+  background: #f7fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 1rem;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #2d3748;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+@media (max-width: 768px) {
+  .errorContainer {
+    padding: 1rem;
+  }
+
+  .errorContent {
+    padding: 2rem;
+  }
+
+  .errorTitle {
+    font-size: 1.5rem;
+  }
+
+  .errorMessage {
+    font-size: 1rem;
+  }
+} 
