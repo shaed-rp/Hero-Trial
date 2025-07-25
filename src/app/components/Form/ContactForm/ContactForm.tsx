@@ -29,6 +29,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
   const [isValid, setIsValid] = useState(false);
   const [showCaptcha, setShowCaptcha] = useState(false);
   const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
 
   useEffect(() => {
     const hasErrors = Object.values(errors).some((error) => error !== null);
@@ -41,6 +43,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
+    setSubmitError(null); // Clear any previous submit errors
+    
     if (name !== 'company') {
       validateField(name, value);
     }
@@ -58,6 +62,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
           error = `${
             name === 'firstName' ? 'First' : 'Last'
           } name must contain only letters`;
+        } else if (value.trim().length > 50) {
+          error = `${name === 'firstName' ? 'First' : 'Last'} name is too long`;
         }
         break;
       case 'email':
@@ -65,6 +71,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
           error = 'Email is required';
         } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value.trim())) {
           error = 'Invalid email format';
+        } else if (value.trim().length > 100) {
+          error = 'Email is too long';
         }
         break;
     }
@@ -74,10 +82,12 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
 
   const handleCaptchaChange = (token: string | null) => {
     setCaptchaToken(token);
+    setSubmitError(null); // Clear any previous submit errors
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setSubmitError(null);
 
     if (isValid && !showCaptcha) {
       setShowCaptcha(true);
@@ -85,6 +95,9 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
     }
 
     if (isValid && captchaToken) {
+      setIsLoading(true);
+      setSubmitError(null);
+
       try {
         const response = await fetch('/api/contact', {
           method: 'POST',
@@ -96,21 +109,39 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
 
         const responseData = await response.json();
 
-        if (response.ok) {
+        if (response.ok && responseData.success) {
           onSubmit(formData);
         } else {
+          setSubmitError(responseData.message || 'Failed to submit form. Please try again.');
           console.error('Failed to send email:', responseData);
         }
       } catch (error) {
-        console.error('Error:', error);
+        setSubmitError('Network error. Please check your connection and try again.');
+        console.error('Error submitting form:', error);
+      } finally {
+        setIsLoading(false);
       }
+    } else if (!captchaToken) {
+      setSubmitError('Please complete the reCAPTCHA verification.');
     }
   };
 
   useEffect(() => {
-    fetch('/api/contact')
-      .then((res) => res.json())
-      .then((data) => setSiteKey(data.recaptchaKey));
+    const fetchSiteKey = async () => {
+      try {
+        const response = await fetch('/api/contact');
+        if (response.ok) {
+          const data = await response.json();
+          setSiteKey(data.recaptchaKey);
+        } else {
+          console.error('Failed to fetch reCAPTCHA site key');
+        }
+      } catch (error) {
+        console.error('Error fetching reCAPTCHA site key:', error);
+      }
+    };
+
+    fetchSiteKey();
   }, []);
 
   return (
@@ -129,6 +160,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
               onChange={handleInputChange}
               placeholder='Enter first name'
               required
+              disabled={isLoading}
+              maxLength={50}
             />
             {errors.firstName && (
               <p className={styles.errorMessage}>{errors.firstName}</p>
@@ -147,6 +180,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
               onChange={handleInputChange}
               placeholder='Enter last name'
               required
+              disabled={isLoading}
+              maxLength={50}
             />
             {errors.lastName && (
               <p className={styles.errorMessage}>{errors.lastName}</p>
@@ -165,6 +200,8 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
               onChange={handleInputChange}
               placeholder='Enter your email'
               required
+              disabled={isLoading}
+              maxLength={100}
             />
             {errors.email && (
               <p className={styles.errorMessage}>{errors.email}</p>
@@ -180,22 +217,34 @@ const ContactForm = ({ onSubmit, siteTitle }: ContactFormProps) => {
               value={formData.company}
               onChange={handleInputChange}
               placeholder='Enter company name'
+              disabled={isLoading}
+              maxLength={100}
             />
           </div>
         </div>
 
         {showCaptcha && (
           <div className={styles.captchaContainer}>
-            <ReCAPTCHA sitekey={siteKey} onChange={handleCaptchaChange} />
+            <ReCAPTCHA 
+              sitekey={siteKey} 
+              onChange={handleCaptchaChange}
+              disabled={isLoading}
+            />
+          </div>
+        )}
+
+        {submitError && (
+          <div className={styles.submitError}>
+            <p>{submitError}</p>
           </div>
         )}
 
         <button
           type='submit'
           className={styles.submitButton}
-          disabled={!isValid || (showCaptcha && !captchaToken)}
+          disabled={!isValid || (showCaptcha && !captchaToken) || isLoading}
         >
-          SUBMIT
+          {isLoading ? 'SUBMITTING...' : 'SUBMIT'}
         </button>
       </form>
     </div>
